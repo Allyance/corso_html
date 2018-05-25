@@ -1,0 +1,50 @@
+ /*css serve per sistemare la grafica, lo stile*/
+ 
+ * {
+     font-family: Roboto, Arial, Helvetica, sans-serif
+ }
+ 
+ header,
+ footer {
+     border: 1px antiquewhite solid;
+     text-align: centre;
+     height: 100px;
+     color: green;
+     font-size: 2cm;
+ }
+ 
+ footer {
+     text-align: center;
+     color: pink;
+     font-size: 1cm
+ }
+ 
+ #Contenuto
+ /*# = id. Unico*/
+ 
+ {
+     border: 2px dotted red;
+ }
+ 
+ #MenuLaterale {
+     text-align: center;
+     font-size: 1cm
+ }
+ /* . = classe*/
+ 
+ .withborder {
+     border: 1px solid blue
+ }
+ 
+ .titolo {
+     font-size: 24px;
+     font-weight: bold;
+     text-align: center;
+     text-transform: uppercase;
+     font-family: 'Comfortaa', sans-serif;
+ }
+ 
+ h1.titolo {
+     font-size: 34;
+     text-decoration: underline;
+ }
