@@ -2,9 +2,41 @@
  
  * {
      font-family: 'Courier New', Courier, monospace sans-serif;
+     box-sizing: border-box;
  }
  
  img {
      max-width: 70px;
      height: 50px
+ }
+ 
+ label {
+     width: 100%;
+     max-width: 200%;
+     height: auto;
+ }
+ 
+ formItem {
+     margin-bottom: 20px
+ }
+ 
+ formItem Imput {
+     width: 20%;
+     display: inline-block;
+     font-weight: 100%;
+ }
+ 
+ form label {
+     width: 100px;
+     display: inline-block;
+     border-radius: 20px/*arrotonda i lati*/
+ }
+ 
+ .box {
+     padding: 10px;
+     /*margine interno*/
+     padding: 10px 20px;
+     /*10px sopra, 20 a destra. Senza specifica gira in senso orario. Se non specifichi sopra sott, destra e sinistra i mancanti li copia*/
+     display: inline-block;
+     /*risulta sulla stessa riga*/
  }
